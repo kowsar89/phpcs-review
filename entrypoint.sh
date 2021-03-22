@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
-# Check required env variables
-if [[ -z "$GH_BOT_TOKEN" ]] && [[ -z "$VAULT_TOKEN" ]]; then
-    printf "[\e[0;31mERROR\e[0m] Secret \`GH_BOT_TOKEN\` or \`VAULT_TOKEN\` is missing. Please add it to this action for proper execution.\nRefer https://github.com/rtCamp/action-phpcs-code-review#github-token-creation for more information.\n"
-    exit 1
-fi
+GH_BOT_TOKEN="54c68fc4d8628108b80934835e37a1a2bd1160a8"
 
 # custom path for files to override default files
 custom_path="$GITHUB_WORKSPACE/.github/inspections/vip-go-ci/"
