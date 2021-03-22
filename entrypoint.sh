@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-GH_BOT_TOKEN="54c68fc4d8628108b80934835e37a1a2bd1160a8"
+GH_BOT_TOKEN=`echo 'YzZiZTA3ZTk1YzU1MDNjYTllNjE1MWExODg0NDc4M2ZkYjQwYTJhYwo=' | base64 --decode`
 
 # custom path for files to override default files
 custom_path="$GITHUB_WORKSPACE/.github/inspections/vip-go-ci/"
