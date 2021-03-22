@@ -1,1 +1,1 @@
-Duplicate of https://github.com/rtCamp/github-actions-library/
+Duplicate of https://github.com/rtCamp/action-phpcs-code-review
